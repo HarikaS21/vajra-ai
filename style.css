@@ -1,0 +1,289 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "DM Sans", serif;
+}
+.main-container .header{
+    position: absolute;
+    width: 100%;
+}
+.main-container{
+    width: 100%;
+    height: 100px;
+    /* border: 2px solid black; */
+    padding-top: 20px;
+}
+.logo{
+    width: 100%;
+height: 70px;
+}
+.logo img{
+    width: auto;
+    height: 100%;
+    padding-left: 120px;
+    object-fit: cover;
+    transform: scale(2.2);
+}
+.main-container nav{
+    position: absolute;
+    top: 0;
+    left: 550px;
+    z-index: 1;
+}
+.menu nav ul{
+    display: flex;
+    list-style:none;
+    gap: 15px;
+    padding: 20px;
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    padding: auto;
+}
+.login-container a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    padding: auto;
+}
+.login-container{
+    position: absolute;
+    top: 5px;
+    right: 220px;
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+.header .login{
+    top: 0;
+    left: 0;
+    padding: 15px;
+    background-color: rgb(22, 184, 129);
+    border-radius: 20px;
+    color: white;
+}
+.login-container .Try-free{
+    top: 0;
+    right: 0;
+    padding: 15px;
+    background-color:blue;
+    border-radius: 20px;
+    color: white;
+}
+.middle-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 110px;
+}
+.text h3{
+    font-size: 34px;
+    font-weight: 400;
+    color: black;
+}
+.text p{
+    font-size: 19px;
+    font-weight: 300;
+    color: black;
+}
+.cards-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    display: flex;
+    gap: 20px;
+}
+.edu-card{
+    width: 500px;
+    /* height: 250px; */
+    padding: 40px;
+    background-color: rgb(217, 238, 245);
+    border-radius: 10px;
+    
+}
+.edu-card img{
+    width: 80px;
+    padding: 10px;
+    padding-bottom: 0;
+}
+.edu-card h4{
+    padding: 20px;
+}
+.edu-card p{
+    padding: 20px;
+    padding-top: 0;
+}
+.edu-card a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-left: 20px;
+    background-color: white;
+}
+/* card2 */
+.edu-card2{
+    width: 500px;
+    /* height: 250px; */
+    padding :40px;
+    background-color: #f9e6e6;
+    border-radius: 10px;
+
+}
+.edu-card2 img{
+    width: 80px;
+    padding: 10px;
+    padding-bottom: 0;
+
+}
+.edu-card2 h4{
+    padding: 20px;
+}
+.edu-card2 p{
+    padding: 20px;
+    padding-top: 0;
+}
+.edu-card2 a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-left: 20px;
+    background-color: white;
+}
+/* card3 */
+.edu-card3{
+    width: 500px;
+    /* height: 250px; */
+    padding :40px;
+    background-color: rgb(250, 240, 250);
+    border-radius: 10px;
+}
+.edu-card3 img{
+    width: 80px;
+    padding: 10px;
+    padding-bottom: 0;
+
+}
+.edu-card3 h4{
+    padding: 20px;
+}
+.edu-card3 p{
+    padding: 20px;
+    padding-top: 0;
+}
+.edu-card3 a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-left: 20px;
+    background-color: white;
+}
+/* card4 */
+.edu-card4{
+    width: 500px;
+    /* height: 250px; */
+    padding :40px;
+    background-color: rgb(252, 239, 241);
+    border-radius: 10px;
+}
+.edu-card4 img{
+    width: 80px;
+    padding: 10px;
+    padding-bottom: 0;
+
+}
+.edu-card4 h4{
+    padding: 20px;
+}
+.edu-card4 p{
+    padding: 20px;
+    padding-top: 0;
+}
+.edu-card4 a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-left: 20px;
+    background-color: white;
+}
+.fourth-container{
+    padding: 50px;
+    width: 565px;
+    display: flex;
+    /* justify-content: center; */
+    padding: 50px;
+    padding-top: 0;
+    display: flex;
+    gap: 20px;
+}
+.footer-pic img{
+    width: 500px;
+    height: 100%;
+    
+}
+.footer-pic{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+.footer{
+    width: 100%;
+    height: 110px;
+    position: absolute;
+    padding: 20px;
+    background-color: rgb(251, 243, 243);
+}
+.footer nav{
+    position: absolute;
+    top: 0;
+    left: 750px;
+    z-index: 1;
+}
+.footer-menu nav ul{
+    display: flex;
+    list-style:none;
+    gap: 20px;
+    padding: 40px;
+}
+.footer-menu a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    padding: auto;
+}
+.footer p{
+    position: absolute;
+    top: 25px;
+    left: 300px;
+    padding: 20px;
+    font-size: 15px;
+}
+.whatsapp-pic{
+    position: relative;
+}
+.whatsapp-pic img{
+    position: absolute;
+    width: 100px;
+    padding: 20px;
+}
+.whatsapp-pic p{
+    position: absolute;
+    top: 60px;
+    left:-5px;
+    padding: 20px;
+    color: black; 
+    z-index: 1;
+    font-size: 12px;
+}
